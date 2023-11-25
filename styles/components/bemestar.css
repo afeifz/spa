@@ -1,0 +1,46 @@
+:root{
+/* Fontes */
+--fonte: 'Roboto', sans-serif;
+
+/* Cores */
+--cor-primaria: #495371;
+--cor-secundaria: #74959A;
+--cor-terciaria: #F1E0AC;
+
+/* Tamanho das fontes */
+--tamanho-do-texto: 3rem;
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho {
+    width: 300px;
+    
+}
+
+.titulo1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--cor-primaria);
+}
+
+.titulo2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--cor-primaria);
+    margin: 20px 0;
+}
+
+.texto2 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--cor-secundaria);
+}
+
+.img-container2 {
+    margin-top: 20px;
+}
